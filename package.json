@@ -1,0 +1,25 @@
+{
+  "name": "homework-week5",
+  "version": "1.0.0",
+  "main": "target/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "watch": "node_modules/.bin/tsc -w"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-multer": "^1.0.0",
+    "@types/koa-router": "^7.0.28",
+    "@types/node": "^10.1.2",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "pg": "^7.4.3",
+    "routing-controllers": "^0.7.7",
+    "typeorm": "^0.2.6",
+    "typescript": "^2.8.3"
+  }
+}
